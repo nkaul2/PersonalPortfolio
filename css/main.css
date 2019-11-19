@@ -13,7 +13,7 @@
   
   .btn-main {
     color: #fbfbfb;
-    background-color: #49F66D; }
+    background-color: rgb(201, 31, 31); }
   
   .btn-light {
     color: #5d5d5d;
@@ -26,10 +26,10 @@
   button[class^='btn-']:hover,
   a[class^='btn-']:hover,
   input[class^='btn-']:hover {
-    background-color: #49F66D; }
+    background-color: rgb(201, 31, 31); }
   
   .bg-main {
-    background: #49F66D;
+    background: rgb(201, 31, 31);
     color: #f4f4f4; }
   
   .bg-dark {
@@ -53,7 +53,7 @@
     text-align: center; }
   
   .text-highlight {
-    color: #49F66D; }
+    color: rgb(201, 31, 31); }
 
   .body-text {
       color: rgb(201, 31, 31);
@@ -94,7 +94,7 @@
   .bottom-line {
     height: 2px;
     width: 3rem;
-    background-color: #49F66D;
+    background-color: rgb(201, 31, 31);
     display: block;
     margin: 0 auto 1rem auto; }
   
@@ -112,6 +112,12 @@
   
   ul {
     list-style: none; }
+
+  p.italicize {
+    font-style: italic;
+    text-align: center;
+    color: rgb(201, 31, 31);
+  }
   
   h2, h3, h4 {
     color: #5d5d5d;
@@ -146,7 +152,7 @@
       #main-nav a:hover {
         border-color: #5d5d5d; }
       #main-nav a.current {
-        border-color: #49F66D; }
+        border-color: rgb(201, 31, 31); }
   
   #header-home {
     height: 100vh;
@@ -177,6 +183,13 @@
     display: grid;
     grid-gap: .5rem;
     grid-template-columns: repeat(4, 1fr); }
+    
+  #home-a .specialsStat {
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    display: grid;
+    grid-gap: .5rem;
+    grid-template-columns: repeat(2, 1fr); }
   
   #home-a .fab,
   #home-a .fas {
@@ -188,24 +201,29 @@
   
   #home-a .fab:hover,
   #home-a .fas:hover {
-    color: #49F66D;
+    color: rgb(201, 31, 31);
     font-size: 7rem; }
   
   #about-a .about-info {
     display: grid;
-    grid-template-areas: 'bioimage bio bio' 'hobby1 hobby2 hobby3' 'q1 q1 q1';
-    grid-gap: 1.2rem;
+    grid-template-areas: 'bioimage bio bio' 
+                         'bioimage bio bio'
+                         'hobby1 hobby2 hobby3';
+    grid-template-rows: 50%;
+    grid-template-columns: 30%;
+    text-align: left;
     color: #5d5d5d; }
   
   #about-a .bio-image {
     grid-area: bioimage;
-    max-width: 800px;
+    max-width: 350px;
     height: auto; }
   
   #about-a .bio {
     grid-area: bio;
-    border-left: 3px solid #49F66D;
-    padding: 0.8rem; }
+    border-left: 3px solid rgb(201, 31, 31);;
+    padding: 0.8rem; 
+    font-size: 1.3rem;}
   
   #about-a .hobby1 {
     grid-area: hobby1;
@@ -222,12 +240,6 @@
     max-width: 800px;
     height: auto; }
   
-  #about-a .quote1 {
-    grid-area: q1;
-    background-color: #fbfbfb;
-    padding: 0.8rem;
-    margin-bottom: 50px; }
-  
   #work-a .work-info {
     display: grid;
     grid-template-areas: 'work1 sum1 sum1' 'work2 sum2 sum2';
@@ -241,7 +253,7 @@
   
   #work-a .sum1 {
     grid-area: sum1;
-    border-left: 3px solid #49F66D;
+    border-left: 3px solid rgb(201, 31, 31);
     padding: 0.8rem; }
   
   #work-a .work2 {
@@ -251,7 +263,7 @@
   
   #work-a .sum2 {
     grid-area: sum2;
-    border-left: 3px solid #49F66D;
+    border-left: 3px solid rgb(201, 31, 31);
     padding: 0.8rem; }
   
   #work-b .project-info {
@@ -267,16 +279,15 @@
   
   #work-b .psum1 {
     grid-area: psum1;
-    border-left: 3px solid #49F66D;
+    border-left: 3px solid rgb(201, 31, 31);
     padding: 0.8rem; }
   
   #contact-a .footer-title span {
-    color: #49F66D; }
+    color: rgb(201, 31, 31); }
   
   #contact-a .contact-info a {
     color: #5d5d5d;
     text-decoration: none; }
   
   #contact-a .contact-info a:hover {
-    color: #49F66D; }
-      margin: auto; } }
+    color: rgb(201, 31, 31); }
