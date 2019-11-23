@@ -176,8 +176,8 @@
         text-align: center;
         margin-bottom: 2rem; }
         #header-home .paragraph-content h1 {
-            font-size: 1.2rem;
-            line-height: 1rem; 
+            font-size: 1.8rem;
+            line-height: 1; 
             margin-bottom: 1rem;}
   
   #header-home::before {
@@ -219,8 +219,6 @@
     grid-template-areas: 'bioimage bio bio' 
                          'bioimage bio bio'
                          'pic1 pic2 pic3';
-    grid-template-rows: 50%;
-    grid-template-columns: 30%;
     text-align: left;
     color: #5d5d5d; }
   
