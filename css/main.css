@@ -164,7 +164,8 @@
   
   #header-home {
     height: 100vh;
-    color: #5d5d5d; }
+    color: #5d5d5d;
+    margin-bottom: 10rem; }
     #header-home .header-content {
       text-align: center;
       padding-top: 12%; }
