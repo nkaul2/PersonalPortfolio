@@ -344,7 +344,7 @@
       #main-nav li {
         padding: 1rem; }
     #header-home {
-      margin-bottom: auto; }
+      padding-bottom: 10rem; }
     #home-a .specials {
       grid-template-columns: repeat(2, 1fr); }
     #home-a .fab,
