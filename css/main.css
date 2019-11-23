@@ -178,8 +178,7 @@
         margin-bottom: 2rem; }
         #header-home .paragraph-content h1 {
             font-size: 2rem;
-            line-height: 1; 
-            margin-bottom: 1rem;}
+            line-height: 1; }
   
   #header-home::before {
     content: '';
