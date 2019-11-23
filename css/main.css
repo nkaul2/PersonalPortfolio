@@ -172,7 +172,8 @@
         line-height: 1.2; }
 
     #header-home .paragraph-content {
-        text-align: center;}
+        text-align: center;
+        padding-bottom: 12%; }
         #header-home .paragraph-content h1 {
             font-size: 2rem;
             line-height: 1.2; }
