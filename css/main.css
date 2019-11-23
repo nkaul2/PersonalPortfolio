@@ -350,6 +350,9 @@
     #home-a .fab,
     #home-a .fas {
       padding: 10px; }
+    #home-a .section-title {
+      margin-top: 10rem;
+    }
     #contact-a .footer-title span {
       font-size: 1rem;
       color: rgb(201, 31, 31);; }
