@@ -366,7 +366,7 @@
 
   @media only screen 
     and (width : 414px) 
-    and (height : 736x)
+    and (height : 736px)
     and (orientation : portrait)  
     and (-webkit-device-pixel-ratio : 3) { 
       #main-nav {
