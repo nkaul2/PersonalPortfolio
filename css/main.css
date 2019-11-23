@@ -328,3 +328,36 @@
   
   #contact-a .contact-info a:hover {
     color: rgb(201, 31, 31); }
+
+    @media (max-width: 800px) {
+      #header-home {
+        height: 30rem; }
+        #header-home .header-content {
+          padding-top: 5rem; } }
+    
+    @media (max-width: 500px) {
+      #main-nav {
+        flex-direction: column;
+        align-items: center; }
+        #main-nav li {
+          padding: 1rem; }
+      #header-home {
+        margin-bottom: 10rem; }
+      #home-a .specials {
+        grid-template-columns: repeat(2, 1fr); }
+      #home-a .fab,
+      #home-a .fas {
+        padding: 10px; }
+      #contact-a .footer-title span {
+        font-size: 1rem;
+        color: #49F66D; }
+      #about-a .about-info {
+        grid-template-areas: 'bioimage' 'bio' 'pic1' 'pic2' 'hobby3' 'q1'; }
+      #work-a .work-info {
+        grid-template-areas: 'work1' 'job1' 'work2' 'job2' 'work3' 'job3'; }
+      #work-a .work1, #work-a .work2 {
+        margin: auto; }
+      #work-b .project-info {
+        grid-template-areas: 'proj1' 'pjob1' 'proj2' 'pjob2' 'proj3' 'pjob3'; }
+      #work-b .proj1 {
+        margin: auto; } }
