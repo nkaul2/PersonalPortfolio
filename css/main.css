@@ -40,6 +40,10 @@
     background: #fbfbfb;
     color: #5d5d5d; 
     font-size: 1.2rem;}
+  .bg-light-center {
+    color: #5d5d5d; 
+    font-size: 1.2rem;
+    text-align: center;}
   
   .bg-right {
     background: #fbfbfb;
