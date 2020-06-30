@@ -254,7 +254,7 @@
   
   #work-a .work-info {
     display: grid;
-    grid-template-areas: 'work1 job1 job1' 'work2 job2 job2' 'work3 job3 job3';
+    grid-template-areas: 'work4 job4 job4' 'work1 job1 job1' 'work2 job2 job2' 'work3 job3 job3';
     grid-gap: 1.2rem;
     color: #5d5d5d; }
 
@@ -285,6 +285,16 @@
   
   #work-a .job3 {
     grid-area: job3;
+    border-left: 3px solid rgb(201, 31, 31);
+    padding: 0.8rem; }
+
+  #work-a .work4 {
+    grid-area: work4;
+    max-width: 300px;
+    height: auto; }
+  
+  #work-a .job4 {
+    grid-area: job4;
     border-left: 3px solid rgb(201, 31, 31);
     padding: 0.8rem; }
   
